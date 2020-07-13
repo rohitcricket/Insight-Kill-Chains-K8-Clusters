@@ -1,0 +1,39 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: bitcoinero
+  name: bitcoinero
+  namespace: prd
+spec: 
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      run: bitcoinero
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        run: bitcoinero
+    spec:
+      containers:
+      - image: securekubernetes/bitcoinero:latest
+        name: bitcoinero
+        command: ["./moneymoneymoney"]
+        args:
+        - -c
+        - "1"
+        - -l
+        - "10"
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 200m
+            memory: 128Mi
