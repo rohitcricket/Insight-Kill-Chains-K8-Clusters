@@ -9,7 +9,9 @@ Nearly everyone has experienced a security incident.
 * 94% of respondents have experienced a security incident in their environments in 2019. Data breaches and exposures often result from human error. 
 * 69% of respondents have experienced a misconfiguration incident, 27% reported a runtime incident, and 24% have had a major vulnerability to remediate
 
-<span style="color:#ff9999">L4</span> 
+<div class="text-purple">
+  This text is purple</a>
+</div>
 
 
 
@@ -72,9 +74,3 @@ According to New Stack, the #1 challenge in Kubernetes clusters is security. Con
 - [K8 and OSI-model](https://www.nginx.com/resources/glossary/load-balancing/)
     - How containers and K8s fit in the OSI-model.
 
-
-![#ff9999](https://via.placeholder.com/15/ff9999/000000?text=+) `#ff9999`
-
-```span
-   // code for coloring
-```
