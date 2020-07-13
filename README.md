@@ -10,7 +10,7 @@ Nearly everyone has experienced a security incident.
 * 69% of respondents have experienced a misconfiguration incident, 27% reported a runtime incident, and 24% have had a major vulnerability to remediate
 
 <div class="text-purple">
-  This text is purple</a>
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
 </div>
 
 
