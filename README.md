@@ -73,3 +73,8 @@ According to New Stack, the #1 challenge in Kubernetes clusters is security. Con
     - How containers and K8s fit in the OSI-model.
 
 
+![#ff9999](https://via.placeholder.com/15/ff9999/000000?text=+) `#ff9999`
+
+```span
+   // code for coloring
+```
